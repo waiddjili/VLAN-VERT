@@ -1,0 +1,59 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.vlan-form {
+  margin-bottom: 20px;
+}
+
+.vlan-form div {
+  margin-bottom: 10px;
+}
+
+.vlan-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.vlan-form input {
+  width: 100%;
+  padding: 5px;
+}
+
+.vlan-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.vlan-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vlan-list th, .vlan-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.vlan-list th {
+  background-color: #f2f2f2;
+}
+
+.vlan-list button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
