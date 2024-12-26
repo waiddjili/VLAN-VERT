@@ -3,6 +3,6 @@
         "node_modules{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/9a82cd2d-2737-465c-adba-e2ac88ffd74c/resourceGroups/DZ-Vert/providers/Microsoft.Web/sites/FRONT-VERT",
     "appService.deploySubpath": "BACK\\backend"
 }
