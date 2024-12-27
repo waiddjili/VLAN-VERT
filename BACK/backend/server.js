@@ -129,6 +129,11 @@ app.use((req, res, next) => {
 });
 // Démarrer le serveur
 const PORT = 5000;
+
+app.use(express.static("./FRONT/public"));
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "FRONT", "public", "index.html"))
+});
 app.listen(PORT, () => {
   console.log(`Serveur en cours d'exécution sur http://localhost:${PORT}`);
 });
